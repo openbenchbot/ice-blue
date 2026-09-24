@@ -15,7 +15,7 @@ max_size           = 9
 desired_size       = 4
 
 portal_namespace  = "*"
-github_repository = "example-com/iac-config"
+github_repository = "openbenchbot/ice-blue"
 state_bucket      = "example-com-portal-tfstate-prod"
 lock_table        = "example-com-portal-tflock"
 

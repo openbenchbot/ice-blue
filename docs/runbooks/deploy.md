@@ -1,6 +1,6 @@
 # Deploy
 
-Plans and applies run in GitHub Actions on `main`, as `example-com/iac-config`. The workflow assumes `portal-ci` with GitHub OIDC. Do not put access keys in the environment.
+Plans and applies run in GitHub Actions on `main`, as `openbenchbot/ice-blue`. The workflow assumes `portal-ci` with GitHub OIDC. Do not put access keys in the environment.
 
 ## Before a pull request
 

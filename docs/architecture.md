@@ -23,7 +23,7 @@ EKS API access is private, with a public endpoint limited to the corporate NAT (
 
 The portal ServiceAccount does not mount a token in the base manifests. The workload IAM role trusts the cluster OIDC provider. Its permission policy is `s3:GetObject` on `uploads/*` and `kms:Decrypt` for the media key when the call arrives via S3.
 
-GitHub Actions assumes a separate role. The trust is `StringEquals` on `repo:example-com/iac-config:ref:refs/heads/main`. That role can use the state bucket and pass the node role to EKS, and nothing broader.
+GitHub Actions assumes a separate role. The trust is `StringEquals` on `repo:openbenchbot/ice-blue:ref:refs/heads/main`. That role can use the state bucket and pass the node role to EKS, and nothing broader.
 
 ## Data
 
