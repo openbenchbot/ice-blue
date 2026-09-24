@@ -1,0 +1,7 @@
+{
+  "partition": "aws",
+  "service": "cloudfront",
+  "account": "*",
+  "resource_type": "distribution",
+  "resource_id": "*"
+}

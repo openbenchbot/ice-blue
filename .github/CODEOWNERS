@@ -1,0 +1,4 @@
+*            @example-com/platform
+/infra/      @example-com/platform-infra
+/deploy/     @example-com/platform-runtime
+/.github/    @example-com/platform-infra

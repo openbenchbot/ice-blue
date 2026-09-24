@@ -1,0 +1,23 @@
+repos:
+  - repo: local
+    hooks:
+      - id: terraform-fmt
+        name: terraform fmt
+        entry: terraform fmt -recursive -check infra
+        language: system
+        pass_filenames: false
+      - id: terraform-validate
+        name: terraform validate
+        entry: make validate
+        language: system
+        pass_filenames: false
+      - id: tflint
+        name: tflint
+        entry: make tflint
+        language: system
+        pass_filenames: false
+      - id: kubeconform
+        name: kubeconform
+        entry: make kubeconform
+        language: system
+        pass_filenames: false
